@@ -47,7 +47,7 @@ h1,h2,h3 { margin: 0 0 10px; }
   /* Dégradé sombre par-dessus l’image */
   background:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url("./imagesstartup/runner.jpg");
+    url("./runner.jpg");
   background-size: cover;
   background-position: center;
 
