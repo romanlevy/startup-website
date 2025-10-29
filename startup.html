@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PaceUp — Run Better</title>
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <div class="container navbar-inner">
+      <a class="brand" href="#">PaceUp</a>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#plans">Plans</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- BANNER (UI kit: responsive) -->
+  <div class="banner">
+    <div class="container banner-content">
+      <h1>Run smarter. Get faster.</h1>
+      <p>Adaptive training plans, clear sessions, and race-day strategy.</p>
+      <a href="#form-section" class="btn">Get started by answering our form !</a>
+    </div>
+  </div>
+
+
+
+
+    
+
+  <!-- SUB-BANNER (UI kit component) -->
+  <div class="sub-banner">
+    <div class="container sub-banner-content">
+      <div class="sub-text">
+        <h2>From 5K to Marathon</h2>
+        <p>Threshold blocks, VO₂ sessions, pace control, and recovery guidance.</p>
+      </div>
+      <div class="sub-callout">
+        <p class="pill">Weekly updates • Race taper • Community</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- FEATURES (Flexbox basics: cards, wrap, grow) -->
+  <div id="features" class="container">
+    <h2 class="section-title">What you get</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Coaching</h3>
+        <p>Simple cues, progression rules, live feedbacks.</p>
+      </div>
+      <div class="card">
+        <h3>Personnalized Plans</h3>
+        <p>Your plan will adjust based on your progression and your goals.</p>
+      </div>
+      <div class="card">
+        <h3>Analytics</h3>
+        <p>PaceUp will give you key data to maximize your progression.</p>
+      </div>
+      <div class="card">
+        <h3>Community</h3>
+        <p>PaceUp makes running social: you will have live information on gatherings, races and challenges around you.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRICING (Flexbox spacing + interactive plan cards) -->
+  <div id="plans" class="container">
+    <h2 class="section-title">Plans</h2>
+    <div class="pricing">
+      <div class="plan-card" tabindex="0">
+        <div class="plan-top">
+          <h3>Starter</h3>
+          <p class="price">€0</p>
+        </div>
+        <ul class="plan-points">
+          <li>3 runs / week</li>
+          <li>Basic analytics</li>
+          <li>Community challenges</li>
+        </ul>
+        <a href="#signup" class="btn btn-outline">Try free</a>
+      </div>
+
+      <div class="plan-card featured" tabindex="0" aria-label="Pro plan">
+        <div class="plan-top">
+          <h3>Pro</h3>
+          <p class="price">€14.90 / mo</p>
+        </div>
+        <ul class="plan-points">
+          <li>Adaptive threshold/VO₂/specific</li>
+          <li>Weekly coach prompts</li>
+          <li>Race strategy & taper</li>
+        </ul>
+        <a href="#signup" class="btn btn-primary">Choose Pro</a>
+      </div>
+
+      <div class="plan-card" tabindex="0">
+        <div class="plan-top">
+          <h3>Team</h3>
+          <p class="price">€49 / mo</p>
+        </div>
+        <ul class="plan-points">
+          <li>Up to 8 runners</li>
+          <li>Shared calendar & leaderboard</li>
+          <li>Coach Q&A live</li>
+        </ul>
+        <a href="#signup" class="btn btn-outline">Contact us</a>
+      </div>
+    </div>
+  </div>
+
+ 
+
+ 
+
+  <div id="form-section" class="container">
+  <div class="typeform-widget"
+       data-url="https://form.typeform.com/to/IDooJGXa"
+       style="width: 100%; height: 500px;"></div>
+  <script>
+    (function() {
+      var qs, js, q, s, d = document,
+          gi = d.getElementById,
+          ce = d.createElement,
+          gt = d.getElementsByTagName,
+          id = "typef_orm",
+          b = "https://embed.typeform.com/";
+      if (!gi.call(d, id)) {
+        js = ce.call(d, "script");
+        js.id = id;
+        js.src = b + "embed.js";
+        q = gt.call(d, "script")[0];
+        q.parentNode.insertBefore(js, q)
+      }
+    })()
+  </script>
+</div>
+
+ <!-- FOOTER (simple, no socials, no cookies) -->
+  <div class="footer">
+    <div class="container footer-inner">
+      <p>© PaceUp</p>
+      <a href="#top" class="backtop">Back to top ↑</a>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
